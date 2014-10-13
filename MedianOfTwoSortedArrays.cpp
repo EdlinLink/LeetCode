@@ -1,7 +1,7 @@
 /*
-    Author:     Edlin(LIN Junhao) edlinlink@qq.com
+    Author:	    Edlin(LIN Junhao) edlinlink@qq.com
     Date:       Oct. 14, 2014
-    Problem:    Median of Two Sorted Arrays
+	Problem:    Median of Two Sorted Arrays
     Source:     https://oj.leetcode.com/problems/median-of-two-sorted-arrays/
     Note:
 
