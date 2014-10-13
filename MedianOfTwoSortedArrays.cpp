@@ -1,15 +1,15 @@
 /*
-    Author:		Edlin(LIN Junhao) edlinlink@qq.com
-    Date:		Oct. 14, 2014
-    Problem:	Median of Two Sorted Arrays
-    Source:		https://oj.leetcode.com/problems/median-of-two-sorted-arrays/
+    Author:     Edlin(LIN Junhao) edlinlink@qq.com
+    Date:       Oct. 14, 2014
+    Problem:    Median of Two Sorted Arrays
+    Source:     https://oj.leetcode.com/problems/median-of-two-sorted-arrays/
     Note:
 
     There are two sorted arrays A and B of size m and n respectively. 
     Find the median of the two sorted arrays. 
     The overall run time complexity should be O(log (m+n)).
 
-    Solution:	Problem <=> Find the Kth element in A and B.
+    Solution:   Problem <=> Find the Kth element in A and B.
                 1. Comparing the half K element in A and B
                 2. If A[half] < B[half], A[0]~A[half] also small than Kth element. Drop them.
                 3. Recursive doing step 2) until find the Kth element.
