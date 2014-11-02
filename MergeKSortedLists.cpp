@@ -18,16 +18,6 @@
                 But it will change the ListNode* in vector.
  */
 
-#include <vector>
-using namespace std;
-
-    struct ListNode {
-        int val;
-        ListNode *next;
-        ListNode(int x) : val(x), next(NULL) {}
-    };
-
-
 class Solution {
 public:
     ListNode *head;
@@ -90,19 +80,3 @@ public:
     }
 
 };
-
-
-int main(){
-    Solution s;
-    ListNode *a = new ListNode(10);
-    ListNode *b = new ListNode(20);
-    ListNode *c = new ListNode(15);
-    a->next = b;
-    std::vector<ListNode*> v;
-    //v.push_back(a);
-    //v.push_back(c);
-
-    ListNode *p = NULL;
-    //v.push_back(p);
-    ListNode* xxx = s.mergeKLists(v);
-}
